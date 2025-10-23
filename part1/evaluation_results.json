@@ -1,0 +1,22 @@
+{
+  "codellama:7b": {
+    "CoT": {
+      "pass@1": 0.38,
+      "pass@5": 0.6
+    },
+    "Self-Planning": {
+      "pass@1": 0.31999999999999995,
+      "pass@5": 0.6
+    }
+  },
+  "deepseek-coder:6.7b": {
+    "CoT": {
+      "pass@1": 0.64,
+      "pass@5": 0.8
+    },
+    "Self-Planning": {
+      "pass@1": 0.6799999999999999,
+      "pass@5": 1.0
+    }
+  }
+}
